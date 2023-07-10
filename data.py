@@ -128,7 +128,7 @@ print("Assortatividade Geral da Rede:", assortativity)
 
 '''
 #Transforma um grafo NetworkX em um grafo visualizável com o pyvis
-network_pyvis = Network(height="750px", width="100%", bgcolor="#222222", font_color="white",notebook=False, directed =True, select_menu=True, heading="Gols como mandante de campo em todas as copas do mundo")
+network_pyvis = Network(height="750px", width="100%", bgcolor="#FFFFF", font_color="white",notebook=False, directed =True, select_menu=True, heading="Gols como mandante de campo em todas as copas do mundo")
 network_pyvis.from_nx(network_nx)
 network_pyvis.show_buttons(filter_=['physics'])
 network_pyvis.barnes_hut()
